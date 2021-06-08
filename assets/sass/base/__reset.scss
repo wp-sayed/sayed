@@ -1,0 +1,164 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+*,
+::before,
+::after{
+	  box-sizing: border-box;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+html{
+	font-size: 62.5%;
+}
+body{
+	line-height: 1.5;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	overflow-x: hidden;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar-toggler:focus{
+  box-shadow: 0px 0px 0px 0px;
+}
+*::-moz-selection {
+	background: #d6b161;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+*::-moz-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+.img {
+	max-width: 100%;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.fix {
+	overflow: hidden
+}
+a,
+.btn {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus{
+	outline: 0;
+}
+a:focus,
+.button:focus{
+	text-decoration: none;
+	outline: none;
+}
+
+/*Default margin & Padding*/
+.mt-10{
+	margin-top: 1rem;
+}
+.mt-15{
+	margin-top: 1.5rem;
+}
+.mt-20{
+	margin-top: 2rem;
+}
+.mt-25{
+	margin-top: 2.5rem;
+}
+.mt-30{
+	margin-top: 3rem;
+}
+.mt-100{
+	margin-top: 1rem;
+}
+.mb-10{
+	margin-bottom: 1rem;
+}
+.mb-15{
+	margin-bottom: 1.5rem;
+}
+.mb-20{
+	margin-bottom: 2rem;
+}
+.mb-25{
+	margin-bottom: 2.5rem;
+}
+.mb-30{
+	margin-bottom: 3rem;
+}
+.mb-100{
+	margin-bottom: 10rem;
+}
+
+.pt-10{
+	padding-top: 1rem;
+}
+.pt-15{
+	padding-top: 1.5rem;
+}
+.pt-20{
+	padding-top: 2rem;
+}
+.pt-25{
+	padding-top: 2.5rem;
+}
+.pt-30{
+	padding-top: 3rem;
+}
+.pt-100{
+	padding-top: 10rem;
+}
+
+.pb-10{
+	padding-bottom: 1rem;
+}
+.pb-15{
+	padding-bottom: 1.5rem;
+}
+.pb-20{
+	padding-bottom: 2rem;
+}
+.pb-25{
+	padding-bottom: 2.5rem;
+}
+.pb-30{
+	padding-bottom: 3rem;
+}
+.pb-100{
+	padding-bottom: 10rem;
+}
+
+

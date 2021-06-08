@@ -1,0 +1,26 @@
+.home-section{
+	background: $dark;
+	height: 60rem;
+	.home-content{
+		margin-top: 25rem;
+		h1{
+			color: $white;
+			@include main-heading;
+			span{
+				color: #e91e63;
+			}
+		}
+		h3{
+			color: $white;
+			margin-top: 2rem;
+		}
+		.button-area{
+			margin-top: 2rem;
+		}
+	}
+}
+
+/*about area*/
+.about-area{
+
+}

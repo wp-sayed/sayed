@@ -1,0 +1,27 @@
+
+@mixin container{
+	width: 1170px;
+	margin: auto;
+}
+@mixin mid-con{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+@mixin transition{
+	transition: all 0.3s;
+}
+@mixin main-heading{
+	font-family: verdana;
+	font-size: 8rem;
+	color: #fff;
+}
+
+
+@mixin main-heading-content{
+	font-family: candara;
+	font-size: 1.8rem;
+	color: #fff;
+}
+

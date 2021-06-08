@@ -1,0 +1,23 @@
+.section-title{
+	h2{
+		font-size: 4rem;
+		color: #e91e63;
+		text-transform: uppercase;
+		font-weight: 700;
+		position: relative;
+		padding-bottom: 1rem;
+		text-align: center;
+		&::before{
+			content: '';
+			display: block;
+			width: 7rem;
+			height: 3px;
+			background: green;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			margin: auto;
+		}
+	}
+}
